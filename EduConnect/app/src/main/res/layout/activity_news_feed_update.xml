@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/header_cover_image"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/materialback" />
+
+
+        <RelativeLayout
+            android:id="@+id/profile_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/header_cover_image"
+            android:background="#e40a46"
+            android:elevation="4dp"
+            android:paddingBottom="24dp">
+
+
+            <TextView
+                android:id="@+id/user_profile_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="30dp"
+                android:text="News Feed Update"
+                android:textColor="#fff"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+        </RelativeLayout>
+
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/profile_layout"
+            android:layout_marginTop="5dp"
+            android:orientation="vertical">
+
+            <android.support.design.widget.TextInputEditText
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="#fff"
+                android:clickable="true"
+                android:elevation="4dp"
+                android:padding="20dp"
+
+                android:hint="Post Title"
+                android:id="@+id/feed_title"/>
+
+            <android.support.design.widget.TextInputEditText
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_marginBottom="3dp"
+                android:layout_marginTop="3dp"
+                android:background="#fff"
+                android:clickable="true"
+                android:inputType="textMultiLine"
+                android:hint="Post Content"
+                android:elevation="4dp"
+                android:padding="20dp"
+
+                android:id="@+id/feed_content"/>
+
+            <mabbas007.tagsedittext.TagsEditText
+                android:id="@+id/tagsEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Tag your post"
+                android:layout_marginTop="10dp"
+                app:allowSpaceInTag="false"
+                android:elevation="4dp"
+                app:tagsBackground="@drawable/square" />
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="#26203c"
+                android:clickable="true"
+                android:elevation="4dp"
+                android:text="Post"
+                android:textColor="#E40A46"
+                android:padding="20dp"
+                android:id="@+id/post"
+                />
+
+
+        </LinearLayout>
+    </RelativeLayout>
+</ScrollView>

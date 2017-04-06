@@ -1,0 +1,33 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:paddingTop="10dp"
+    tools:context="com.example.divsharma7.educonnect.Tab_Alumni">
+<RelativeLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:background="#fff"
+        android:clickable="true"
+        android:elevation="4dp"
+        android:text="Categories"
+        android:textStyle="bold"
+        android:padding="20dp"
+        android:textColor="#9fc430"
+        android:shadowRadius="@integer/cast_libraries_material_featurehighlight_pulse_base_alpha"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:id="@+id/cat"/>
+    <ExpandableListView
+        android:layout_width="wrap_content"
+        android:layout_below="@+id/cat"
+        android:id="@+id/myexpview"
+        android:layout_height="wrap_content"></ExpandableListView>
+</RelativeLayout>
+</FrameLayout>

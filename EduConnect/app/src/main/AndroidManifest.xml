@@ -2,26 +2,71 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.divsharma7.educonnect">
 
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <!-- To auto-complete the email text field in the login form with the user's emails -->
     <uses-permission android:name="android.permission.GET_ACCOUNTS" />
     <uses-permission android:name="android.permission.READ_PROFILE" />
     <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@mipmap/mylogo"
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
             android:name=".LoginActivity"
-            android:label="@string/app_name">
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Settings"
+            android:label="@string/title_activity_profile"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SignupActivity"
+            android:label="@string/title_activity_login"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ResetPasswordActivity"
+            android:label="@string/title_activity_reset_password"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".WelcomeActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".Student.Student_mainPage"
+            android:label="@string/title_activity_student_main_page"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".UserType_select" />
+        <activity android:name=".Student.Stud_register" />
+        <activity android:name=".Alumni.Alumni_Register" />
+        <activity android:name=".Faculty.Faculty_Register" />
+        <activity android:name=".NewsFeedUpdate"
+           />
+        <activity android:name=".Student.User_Profile_stu" />
+        <activity
+            android:name=".Alumni.Alumni_mainPage"
+            android:label="@string/title_activity_alumni_main_page"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Alumni.User_Profile_alum" />
+        <activity
+            android:name=".Faculty.Fac_mainPage"
+            android:label="@string/title_activity_fac_main_page"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Faculty.User_Profile_fac" />
+        <activity
+            android:name=".SplashScreen"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".BrowseUsers"
+            android:label="@string/title_activity_browse_users" />
+        <activity android:name=".Specific_users"></activity>
     </application>
 
 </manifest>

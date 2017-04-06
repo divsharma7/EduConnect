@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+        <item
+            android:id="@+id/browse_users"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Browse Users" />
+
+        <item
+            android:id="@+id/posttofeed_fac"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Post To Newsfeed" />
+        <item
+            android:id="@+id/mypro_fac"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="My Profile" />
+
+
+</menu>

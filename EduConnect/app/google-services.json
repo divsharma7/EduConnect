@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "139150227412",
+    "firebase_url": "https://educonnect-b9324.firebaseio.com",
+    "project_id": "educonnect-b9324",
+    "storage_bucket": "educonnect-b9324.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:139150227412:android:36e482e33f688eb3",
+        "android_client_info": {
+          "package_name": "com.example.divsharma7.educonnect"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "139150227412-06cjcmjqjq47ve19sk01gk7n299j42vd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.divsharma7.educonnect",
+            "certificate_hash": "1d83a1916d0d59ced2ea3e593138e39af5775789"
+          }
+        },
+        {
+          "client_id": "139150227412-jb33ks29brilr5njauj1jk226h7hs54q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDB3mnZjkkYM0TjabhTtrX3ycEKRk-NSQ4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "139150227412-jb33ks29brilr5njauj1jk226h7hs54q.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

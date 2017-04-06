@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="30dp"
+    android:paddingRight="30dp"
+    android:background="@color/colorPrimary"
+    tools:context="com.example.divsharma7.educonnect.UserType_select">
+
+
+    <Button
+        android:id="@+id/studentbutton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:fadingEdgeLength="2dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:elevation="5dp"
+        android:layout_marginTop="100dp"
+        android:background="@color/colorAccent"
+        android:text="Student" />
+    <Button
+        android:layout_width="match_parent"
+        android:text="Teacher"
+        android:fadingEdgeLength="2dp"
+        android:background="@color/colorAccent"
+        android:layout_height="wrap_content"
+        android:elevation="5dp"
+        android:id="@+id/facultybutton"
+        android:layout_marginTop="200dp"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fadingEdgeLength="2dp"
+        android:elevation="5dp"
+        android:background="@color/colorAccent"
+        android:id="@+id/alumnibutton"
+        android:text="Alumni"
+        android:layout_marginTop="300dp"/>
+
+
+
+
+</RelativeLayout>

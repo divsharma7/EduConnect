@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+        <item
+            android:id="@+id/browse_users"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Browse Users" />
+
+        <item
+            android:id="@+id/posttofeed"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Post to Newsfeed" />
+        <item
+         android:id="@+id/alum_my_pro"
+         android:icon="@drawable/ic_menu_slideshow"
+         android:title="My Profile" />
+
+
+
+
+</menu>
