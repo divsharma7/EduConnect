@@ -34,7 +34,7 @@ import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
-
+//for now main pages of all users are similar but made three redundant ones to add different functionalities later
 public class Alumni_mainPage extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
     FirebaseRecyclerAdapter mAdapter; String[] maillist=new String[100]; int i=0;
